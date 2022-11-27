@@ -16,7 +16,7 @@ void lireMatrice(int** mat)
      }
 }
 
-int somme (int mat1[][M],int mat2[][M])
+int** somme (int mat1[][M],int mat2[][M])
 {
    int** p = malloc(N * sizeof(int));
    if (p == NULL)
